@@ -15,7 +15,7 @@ let expo = new Expo();
 
 
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log('✅ Đã kết nối MongoDB'))
+  .then(() => console.log('Đã kết nối MongoDB'))
   .catch(err => console.error('Lỗi MongoDB:', err));
 
 
